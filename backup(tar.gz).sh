@@ -59,6 +59,6 @@ hour=${date:11:2}
 minute=${date:14:2}
 
 echo 开始备份...
-zip -r world_$year-$month-$day-$hour-$minute.zip $save
-# mv world_$year-$month-$day-$hour-$minute.zip ./backups/
-echo 备份完成，已保存至world_$year-$month-$day-$hour-$minute.zip
+tar -czvf world_$year-$month-$day-$hour-$minute.tar.gz $save
+# mv world_$year-$month-$day-$hour-$minute.tar.gz ./backups/
+echo 备份完成，已保存至world_$year-$month-$day-$hour-$minute.tar.gz
