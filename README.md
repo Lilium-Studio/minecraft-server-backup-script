@@ -1,7 +1,7 @@
 # minecraft-server-backup
 Backup your Minecraft: Java Edition dedicated server saves easily with bash or batch scripts.
 
-Note: It does not work with Bukkit or Spigot due to multiple folders for different dimensions. Modify is needed for scripts to be compatible with these severs.
+Note: It does not work with Bukkit or Spigot due to multiple folders for different dimensions. Small Modification is needed for scripts to be compatible with these severs.
 
 ~~It might work for Bedrock Edition as well!~~
 
